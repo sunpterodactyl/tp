@@ -560,3 +560,17 @@ testers are expected to do more *exploratory* testing.
    1. _{explain how to simulate a missing/corrupted file, and the expected behavior}_
 
 1. _{ more test cases …​ }_
+
+--------------------------------------------------------------------------------------------------------------------
+
+## **Appendix: Planned Enhancements**
+
+Team Size: 5 pax
+
+1. **Display most recent loan transaction at the top of transaction history**: The current transaction history displays
+    loan transactions from oldest to newest. We intend to change the display from newest transaction recorded to oldest recorded transaction.
+2. **Enforce stricter date parsing**: Current string parsing requires three string inputs separated by spaces.
+   We will enhance this by parsing dates as DateTime objects to enforce a consistent format and improve reliability. 
+3. **Display total amount loaned to a borrower**: The LoanCard currently displays only the total amount owed by a borrower. 
+   We will enhance it to also display the total amount borrowed overall for better financial tracking.
+

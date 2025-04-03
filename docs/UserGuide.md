@@ -109,9 +109,11 @@ Format: `rename [ID] n/[NAME]`
 
 ### Adding/Updating phone number: `phone`
 
-Adds and edits a borrowers' phone number in the Wanted list.
+Adds, deletes and edits a borrowers' phone number in the Wanted list.
 
-Format: `phone [ID] p/[PHONE]`
+Format: `phone [ID] p/[PHONE]` (add and edit phone number) 
+
+Format: `phone [ID] p/delete` (delete the phone number)
 
 ### Adding/Updating tags: `tag`
 
